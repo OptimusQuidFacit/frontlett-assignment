@@ -55,7 +55,7 @@ const Hero = () => {
                 </div>
               </div>
               <div className='h-[620px] w-1/2 relative'>
-                <Image className='object-cover' src={`/incubation.jpeg`} fill alt='A man'/>
+                <Image className='object-fill' src={`/incubation.jpeg`} fill alt='A man'/>
               </div>
             </div>
             
