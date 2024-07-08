@@ -1,9 +1,9 @@
 "use client"
 import Image from "next/image";
 import SectionHeading from "./SectionHeading";
-import { IoArrowBackCircleOutline, IoArrowForwardCircleOutline } from "react-icons/io5";
 import { useState } from "react";
 import UnderlineLink from "./UnderlineLink";
+import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
 const EIR = () => {
     const cards= [
@@ -71,12 +71,12 @@ const EIR = () => {
 
             </div>
             <UnderlineLink text="Support the Future"/>
-            <div className="mt-5 flex gap-5 justify-center">
-                <span onClick={handleBack}>
-                    <IoArrowBackCircleOutline className="text-[100px]"/>
+            <div className="mt-5 flex gap-[32px] justify-center">
+                <span className="rounded-full border-2 border-black" onClick={handleBack}>
+                    <IoIosArrowRoundBack className="cursor-pointer font-light text-[100px]"/>
                 </span>
-                <span onClick={handleForward}>
-                    <IoArrowForwardCircleOutline className="text-[100px]"/>
+                <span className="rounded-full border-2 border-black" onClick={handleForward}>
+                    <IoIosArrowRoundForward className="cursor-pointer font-light text-[100px]"/>
                 </span>
             </div>
         </div>

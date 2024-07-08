@@ -28,7 +28,7 @@ const Featured = () => {
     [])
 
     return (
-        <div className="mx-20 my-20">
+        <div className="my-20">
             <h2 className="text-3xl font-bold text-center">
                 As Featured in
             </h2>
