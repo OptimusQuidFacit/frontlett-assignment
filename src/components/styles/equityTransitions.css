@@ -1,0 +1,15 @@
+.fadeinitial{
+  opacity: 0;
+  transition: opacity 1s;
+}
+.slideinitial{
+  transform: translateX(100vw);
+  transition: transform 1s;
+  z-index: 0;
+}
+.fadeanimate{
+  opacity:1;
+}
+.slideanimate{
+  transform: translateX(0);
+}

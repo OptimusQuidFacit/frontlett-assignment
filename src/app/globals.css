@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+.link{
+  text-decoration: none;
+}
+
+/* equityJobs slideshow */
+/* carousel.css */
+
+
+
+
+/* index.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
