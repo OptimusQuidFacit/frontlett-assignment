@@ -17,7 +17,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-white w-full">
+    <main className="bg-white min-w-full">
       <Hero/>
       <section className="bg-lightgrey">
         <Quote/>

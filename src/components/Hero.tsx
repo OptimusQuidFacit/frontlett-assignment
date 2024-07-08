@@ -39,10 +39,10 @@ const Hero = () => {
             {/* <img src={item.image} alt={item.title} style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }} /> */}
             <div className='flex items-center'>
               <div className='w-1/2 p-20'>
-                <h1 className='font-bold text-5xl leading-relaxed'>
+                <h1 className='font-semibold text-5xl leading-normal'>
                   SINC Partners is a service incubation company 
                 </h1>
-                <p className='text-2xl leading-relaxed'>
+                <p className='text-xl leading-relaxed'>
                 Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).
                 
                 </p>
@@ -54,8 +54,8 @@ const Hero = () => {
                 </Link>
                 </div>
               </div>
-              <div className='h-[620px] w-1/2 relative'>
-                <Image className='object-fill' src={`/incubation.jpeg`} fill alt='A man'/>
+              <div className='h-[640px] w-1/2 relative'>
+                <Image className='object-cover' src={`/incubation.jpeg`} fill alt='A man'/>
               </div>
             </div>
             
@@ -65,10 +65,10 @@ const Hero = () => {
             {/* <img src={item.image} alt={item.title} style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }} /> */}
             <div className='flex items-center'>
               <div className='w-2/5 p-20'>
-                <h1 className='font-bold text-4xl leading-relaxed'>
+                <h1 className='font-semibold text-5xl leading-normal'>
                   Come with an Idea Leave with a company
                 </h1>
-                <p className='text-2xl leading-relaxed'>
+                <p className='text-xl leading-relaxed'>
                   You alongside seasoned service providers ands investors, expedite the growth and market entry of your Start Up
 
                 </p>
@@ -80,8 +80,8 @@ const Hero = () => {
                 </Link>
                 </div>
               </div>
-              <div className='h-[620px] w-3/5 relative'>
-                <Image className='object-contain h-full' src={`/idea.png`} fill alt='A man'/>
+              <div className='h-[640px] w-3/5 relative'>
+                <Image className='object-fill' src={`/idea.png`} fill alt='A man'/>
               </div>
             </div>
           </Box>
@@ -90,10 +90,10 @@ const Hero = () => {
             {/* <img src={item.image} alt={item.title} style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }} /> */}
             <div className='flex items-center'>
               <div className='w-1/2 p-20'>
-                <h1 className='font-bold text-4xl leading-relaxed'>
+                <h1 className='font-semibold text-5xl leading-normal'>
                   We are big on these 3 things;                
                 </h1>
-                <div className='text-2xl leading-relaxed'>
+                <div className='text-xl leading-relaxed'>
                   <p>
                     <span className='font-bold me-4'>
                       ✓ 
@@ -121,9 +121,9 @@ const Hero = () => {
                 </Link>
                 </div>
               </div>
-              <div className='h-[620px] w-1/2 relative'>
+              <div className='h-[640px] w-1/2 relative'>
                 <Image className='object-cover' src={`/three.png`} fill alt='A man'/>
-                <div className=" absolute top-1/2 left-0 h-[620px] -translate-y-1/2 -translate-x-1/2 flex flex-col justify-center gap-[8px]">
+                <div className=" absolute top-1/2 left-0 h-[640px] -translate-y-1/2 -translate-x-1/2 flex flex-col justify-center gap-[8px]">
                   <div style={gradient} className="text-center px-8 py-5 bg-primary text-white rounded-full">
                     <p className="text-2xl font-semibold">
                       SIP 1.0

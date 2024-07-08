@@ -32,8 +32,8 @@ const Navbar = () => {
         },
 ]
     return (
-      <div className="md:flex justify-between items-center bg-lightgrey px-20 py-7">
-        <div className="md:flex mt-5 w-full items-center gap-10">
+      <div className="flex justify-between items-center bg-lightgrey px-20 py-7">
+        <div className="flex mt-5 w-full items-center gap-10">
             <div>
                 <p className="border border-black tracking-[0.3em] text-center 
                     p-2 ring-1 ring-inset ring-black text-4xl">
