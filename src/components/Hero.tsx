@@ -54,7 +54,7 @@ const Hero = () => {
                 </Link>
                 </div>
               </div>
-              <div className='h-[650px] w-1/2 relative'>
+              <div className='h-[620px] w-1/2 relative'>
                 <Image className='object-cover' src={`/incubation.jpeg`} fill alt='A man'/>
               </div>
             </div>
@@ -80,8 +80,8 @@ const Hero = () => {
                 </Link>
                 </div>
               </div>
-              <div className='h-[650px] w-3/5 relative'>
-                <Image className='object-fill' src={`/idea.png`} fill alt='A man'/>
+              <div className='h-[620px] w-3/5 relative'>
+                <Image className='object-contain h-full' src={`/idea.png`} fill alt='A man'/>
               </div>
             </div>
           </Box>
@@ -121,9 +121,9 @@ const Hero = () => {
                 </Link>
                 </div>
               </div>
-              <div className='h-[650px] w-1/2 relative'>
+              <div className='h-[620px] w-1/2 relative'>
                 <Image className='object-cover' src={`/three.png`} fill alt='A man'/>
-                <div className=" absolute top-1/2 left-0 h-[650px] -translate-y-1/2 -translate-x-1/2 flex flex-col justify-center gap-[8px]">
+                <div className=" absolute top-1/2 left-0 h-[620px] -translate-y-1/2 -translate-x-1/2 flex flex-col justify-center gap-[8px]">
                   <div style={gradient} className="text-center px-8 py-5 bg-primary text-white rounded-full">
                     <p className="text-2xl font-semibold">
                       SIP 1.0
