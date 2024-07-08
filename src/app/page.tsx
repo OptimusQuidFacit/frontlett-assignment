@@ -8,6 +8,7 @@ import Innovators from "@/components/Innovators";
 import InvestorsNetwork from "@/components/InvestorsNetwork";
 import Letsbuild from "@/components/Letsbuild";
 import Network from "@/components/Network";
+import NewsLetter from "@/components/NewsLetter";
 import Portfolio from "@/components/Portfolio";
 import Quote from "@/components/Quote";
 import Resources from "@/components/Resources";
@@ -33,6 +34,9 @@ export default function Home() {
         <Featured/>
         <Letsbuild/>
       </section>
+      <aside>
+        <NewsLetter/>
+      </aside>
     </main>
   );
 }

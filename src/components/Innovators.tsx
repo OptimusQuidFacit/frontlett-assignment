@@ -21,7 +21,7 @@ const Innovators = () => {
             <p className="pb-10 text-lg">
                 We have proprietary concept innovations that will support the startup ecosystem, support solution-providers entrepreneurs and ultimately help democratize success;
             </p>
-            <div className="flex justify-between">
+            <div className="flex justify-center gap-[32px]">
                 {
                     innovations.map(item=>
                         <div key={item.title} className=" w-[350px] bg-white rounded-xl p-10 min-h-[200px]">

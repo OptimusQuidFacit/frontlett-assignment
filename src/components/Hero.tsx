@@ -28,6 +28,9 @@ const Hero = () => {
     autoplaySpeed: 4000,
     arrows: false,
   };
+  const gradient={
+    background: "linear-gradient(to right, rgba(33, 33, 33, 1), rgba(33, 33, 33, 0.5) 45%, rgba(166, 166, 166, 0.5) 75%, rgba(166, 166, 166, 0.2))"
+  }
 
   return (
     <Box sx={{ width: '100%', }}>
@@ -120,6 +123,32 @@ const Hero = () => {
               </div>
               <div className='h-[650px] w-1/2 relative'>
                 <Image className='object-cover' src={`/three.png`} fill alt='A man'/>
+                <div className=" absolute top-1/2 left-0 h-[650px] -translate-y-1/2 -translate-x-1/2 flex flex-col justify-center gap-[8px]">
+                  <div style={gradient} className="text-center px-8 py-5 bg-primary text-white rounded-full">
+                    <p className="text-2xl font-semibold">
+                      SIP 1.0
+                    </p>
+                    <p>
+                      2024 Cohort
+                    </p>
+                  </div>
+                  <div style={gradient} className="text-center px-8 py-5 bg-primary text-white rounded-full">
+                    <p className="text-2xl font-semibold">
+                      40+ 
+                    </p>
+                    <p>
+                      2024 Cohort
+                    </p>
+                  </div>
+                  <div style={gradient} className="text-center px-8 py-5 bg-primary text-white rounded-full">
+                    <p className="text-2xl font-semibold">
+                      $1M+
+                    </p>
+                    <p>
+                      To Be Invested
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </Box>

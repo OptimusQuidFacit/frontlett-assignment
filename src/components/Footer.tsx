@@ -13,7 +13,7 @@ const Footer = () => {
             name: "Initiatives",
             items: ["Jabi Plains", "Local Pricing Initiative", "Scholarship Program", 
                     "SSMN Pricing", "University STEM", "University InResidency",
-                    // eslint-disable-next-line 
+                     // eslint-disable-next-line
                     <span>1M Nigeria 
                         <span className=" w-[30px] h-[20px] inline-block relative">
                         <Image className="object-contain" src={'/icons/flag.png'} fill alt="Nigerian Flag"/>
