@@ -39,7 +39,7 @@ const Hero = () => {
             {/* <img src={item.image} alt={item.title} style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }} /> */}
             <div className='flex items-center'>
               <div className='w-1/2 p-20'>
-                <h1 className='font-semibold text-5xl leading-normal'>
+                <h1 className='font-semibold text-5xl leading-snug'>
                   SINC Partners is a service incubation company 
                 </h1>
                 <p className='text-xl leading-relaxed'>
@@ -65,7 +65,7 @@ const Hero = () => {
             {/* <img src={item.image} alt={item.title} style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }} /> */}
             <div className='flex items-center'>
               <div className='w-2/5 p-20'>
-                <h1 className='font-semibold text-5xl leading-normal'>
+                <h1 className='font-semibold text-5xl leading-snug'>
                   Come with an Idea Leave with a company
                 </h1>
                 <p className='text-xl leading-relaxed'>
@@ -90,7 +90,7 @@ const Hero = () => {
             {/* <img src={item.image} alt={item.title} style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }} /> */}
             <div className='flex items-center'>
               <div className='w-1/2 p-20'>
-                <h1 className='font-semibold text-5xl leading-normal'>
+                <h1 className='font-semibold text-5xl leading-snug'>
                   We are big on these 3 things;                
                 </h1>
                 <div className='text-xl leading-relaxed'>
