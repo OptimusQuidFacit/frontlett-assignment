@@ -30,7 +30,7 @@ const Resources = () => {
                             <div className="relative w-full h-[235px]">
                                 <Image className="object-cover" src={item.image} fill alt="Our blog stories on Youtube"/>
                                 <Link href={`#`} className="absolute 
-                                border border-1 bg-[#DF0707] -translate-y-1/2 -translate-x-1/2 flex items-center justify-center rounded-full h-[46.67px] w-[46.67px] top-1/2 left-1/2 translate-x-1/2 translate-y-1/2">
+                                border border-1 bg-[#DF0707] -translate-y-1/2 -translate-x-1/2 flex items-center justify-center rounded-full h-[46.67px] w-[46.67px] top-1/2 left-1/2">
                                         <FaPlay className="text-white"/>
                                 </Link>
                                 <div className="w-full flex justify-center gap-[20px] absolute bottom-[10px] left-1/2 -translate-x-1/2">
